@@ -100,14 +100,18 @@ figure {
   font-size: 16px;
 }
 
-.social-gutter:before {
+.contact-title {
+  position: relative;
+}
+
+.contact-title:before {
   content: "";
   width: 40px;
   height: 4px;
   position: absolute;
   background: #f51127;
-  top: 52%;
-  left: 49%;
+  top: 40px;
+  left: 320px;
 }
 
 .social-gutter {
@@ -138,43 +142,62 @@ figure {
   margin: 15px;
 }
 
-.fafa-container i{
+.fafa-container i {
   color: red;
 }
 
-.form-gutter{
+.form-gutter {
   margin-top: 170px;
   position: absolute;
-  width: 100%;  
+  width: 100%;
   text-align: center;
   background: #e8eef3;
   z-index: -1;
 }
 
-.form-gutter form{
+.form-gutter form {
   padding: 200px 400px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.5);
 }
 
-.name-gutter{
+.name-gutter {
   display: flex;
   text-align: left;
-  color: rgba(0,0,0,0.5);
+  color: rgba(0, 0, 0, 0.5);
   margin-bottom: 20px;
 }
 
-.name-holder{
+.name-holder {
   flex: 1;
 }
 
-.name-holder input{
+.name-holder input {
   height: 40px;
   width: 95%;
 }
 
-.name-holder div{
+.name-holder div {
   margin-bottom: 10px;
 }
 
-.message-holder{
+.message-gutter {
+  margin-bottom: 20px;
+}
 
+.message-gutter textarea {
+  width: 100%;
+}
+
+.submit-btn {
+  border: 1px solid;
+  background: #9e0000;
+  color: #fff;
+  width: 100%;
+  padding: 18px;
+  font-size: 16px;
+}
+
+.footer-list{
+  display: flex;
 }
